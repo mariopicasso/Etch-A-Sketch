@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch a Sketch</title>
+
+  <!--Font--> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <header>
+    <h1>Etch a Sketch</h1>
+  </header>
+
+<div id="container">
+  
+  <div id = "controls-container">
+   
+    <div id="range-slider">
+      <label for="slide-range" id="range-label">SQUARES PER SIDE</label>
+      <input type="range" min="16" max="100" value="16" id="slide-range">
+      <p id="number-squares">16</p>
+    </div>
+    
+    <form id="color-buttons">
+      
+      <label class="color">BLACK
+        <input type="radio" name="color" value = "black" checked>
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="color">WHITE
+        <input type="radio" name="color" value = "white">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="color">RAINBOW
+        <input type="radio" name="color" value="rainbow">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="color">PENCIL
+        <input type="radio" name="color" value="pencil">
+        <span class="checkmark"></span>
+      </label>
+
+      <div id="color-picker-cont">
+        <label class="color">PICK
+          <input type='radio' name='color' value='user'>
+          <span class="checkmark"></span>      
+        </label>
+        <input type="color" name="radio" id="color-picker">
+      </div>
+
+    </form>
+  </div>
+  <div id = "grid-container"></div> 
+  <div id = "instructions">
+    <div id = "text-container">
+      <h2 id = "instructionsTitle">INSTRUCTIONS</h2>
+      <p class = "instructionsPar">This is a browser
+        version of something between a sketchpad and an Etch-A-Sketch.</p> 
+      <p class = "instructionsPar"> Click on the white grid and start drawing!</p>
+    </div>
+    <div id="button-container">
+      <button id= 'reset-button'>RESET</button>
+    </div>
+  </div>
+</div>
+  
+  
+  <script src="app.js"></script>
+</body>
+</html>
