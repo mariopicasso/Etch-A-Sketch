@@ -107,9 +107,6 @@ function print() {
   }
 }
 
-function rainbow() {
-  
-}
 
 /* PROGRAM FLOW */
 
