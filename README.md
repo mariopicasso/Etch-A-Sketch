@@ -1,5 +1,5 @@
 # Etch-A-Sketch
-This is a project from the Odin Project Curriculum. The initial idea was make something like a virtual version of the fancy draw game Etch A Sketch. Live preview here: 
+This is a project from the Odin Project Curriculum. Live preview here: 
 
 ## Functionality
 The initial idea was make something like a virtual version of the fancy draw game Etch A Sketch
