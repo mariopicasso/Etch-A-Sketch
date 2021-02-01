@@ -65,6 +65,7 @@ h2{
   height: 40vw;
   background-color: white;
   display: grid;
+  cursor: none;
 }
 
 #instructions{
